@@ -1,0 +1,130 @@
+
+.open-sans-normal> {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* shared style */
+/* nav style */
+.text-primary{
+    color: #FD6E0A;
+}
+.dark-2{
+    color:#474747;
+}
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:50px 200px;
+}
+.nav-title{
+font-weight: 800;
+font-size: 45px;
+}
+nav ul li {
+    list-style:none;
+    margin-right:50px;
+}
+nav li a{
+    text-decoration: none;
+    font-size:20px;
+    
+}
+nav ul{ 
+    display: flex;
+    align-items:center;
+   
+    
+}
+.btn{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size:20px;
+    color:white;
+    border:none;
+    padding:18px 35px;
+    border-radius: 5px;
+
+}
+/* banner styles */
+.bammer-greetings{
+    font-size:45px;
+    font-weight: 600;
+
+
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 85px ;
+}
+.banner-description{
+    font-size:18px;
+}
+.banner-profile{
+    width:580px;
+
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.banner-content{
+    max-width: 580px;
+}
+/* header */
+
+    .header {
+    background-image: url('../images/developer.png'), url('../images/header_bg.png' );
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+/* Rectangle 2 */
+
+/* position: absolute;
+width: 1600px;
+height: 837px;
+left: 0px;
+top: 0px;
+
+background: #FFF8F3; */
+
+
+.section--title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #181818;
+
+}
+.section-descrioption{
+ font-size: 18px;
+ color:#757575;
+}
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+/* about styles */
+.about{
+   border-radius: 10px; 
+   padding: 130px 150px;
+   text-align: center;
+    margin-top: 130px;
+
+}
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about-items{
+    display:flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-weight: 600;
+}
